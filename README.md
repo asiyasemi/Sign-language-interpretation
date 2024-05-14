@@ -1,7 +1,8 @@
 # Sign Language Interpretation Project
+This project aims to build a sign language interpretation system using deep learning techniques. The system is designed to recognize hand gestures from images and classify them into corresponding sign language symbols.
 
 ## Overview
-This project aims to develop a sign language interpretation system using deep learning techniques. The system will be able to recognize and interpret sign language gestures captured through images or video input.
+Sign language is an essential means of communication for individuals with hearing impairments. This project leverages computer vision and deep learning to interpret sign language gestures captured through images or video frames.
 
 ## Table of Contents
 Features
@@ -13,8 +14,11 @@ Contributing
 License
 
 ## Features
-Recognition of sign language gestures.
-Interpretation of recognized gestures into text or speech.
+Recognize and interpret sign language gestures.
+Multi-class classification for various sign language symbols.
+Preprocessing techniques for image normalization and augmentation.
+Training and evaluation of deep learning models for gesture recognition.
+Model deployment for real-time interpretation.
 
 ## Dependencies
 Python 3.x
