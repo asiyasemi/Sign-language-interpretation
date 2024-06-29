@@ -1,8 +1,8 @@
 # Live Sign Language Interpretation Project
-This project aims to build a sign language interpretation system using deep learning techniques. The system is designed to recognize hand gestures from images and classify them into corresponding sign language symbols.
+This project aims to build a sign language interpretation system using deep learning techniques. The system is designed to recognize hand gestures from images and classify them into corresponding sign language symbols and play sound for what the gester is saying.
 
 ## Overview
-Sign language is an essential means of communication for individuals with hearing impairments. This project leverages computer vision and deep learning to interpret sign language gestures captured through images or video frames.
+Sign language is an essential means of communication for individuals with hearing impairments. This project leverages computer vision and deep learning to interpret sign language gestures captured through images or video frames.It will play the sound of that gesture.
 
 ## Table of Contents
 Features
@@ -28,6 +28,8 @@ Preprocessing techniques for image normalization and augmentation.
 
 Training and evaluation of deep learning models for gesture recognition.
 
+Play sound of the recognised gesture label.
+
 Model deployment for real-time interpretation.
 
 ## Dependencies
@@ -38,6 +40,7 @@ NumPy
 OpenCV
 scikit-learn
 matplotlib
+pyttsx3
 
 ## Dataset
 The dataset used in this project consists of images capturing various sign language gestures. It is organized into different folders, each representing a specific sign language symbol.Training data is to be collected after running datacollection.ipynb into different folders inside data.
