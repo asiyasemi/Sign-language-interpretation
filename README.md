@@ -1,4 +1,4 @@
-# Sign Language Interpretation Project
+# Live Sign Language Interpretation Project
 This project aims to build a sign language interpretation system using deep learning techniques. The system is designed to recognize hand gestures from images and classify them into corresponding sign language symbols.
 
 ## Overview
